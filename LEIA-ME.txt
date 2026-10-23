@@ -1,0 +1,22 @@
+BAIXADOR DE VÍDEOS DO YOUTUBE — WINDOWS 11
+
+COMO INICIAR
+1. Extraia todos os arquivos desta pasta.
+2. Dê dois cliques em INICIAR.bat.
+3. Cole o link do YouTube.
+4. Clique em "Escolher pasta..." e selecione onde salvar.
+5. Escolha a qualidade e clique em "Baixar vídeo".
+Não é necessário abrir o CMD manualmente.
+
+REQUISITOS
+- Windows 10/11.
+- Python 3 instalado (o programa usa Tkinter, normalmente incluído na instalação padrão do Python para Windows).
+- yt-dlp instalado e acessível pelo PATH. Instalação: winget install yt-dlp.yt-dlp
+- FFmpeg recomendado para combinar vídeo e áudio de alta qualidade. Instalação: winget install Gyan.FFmpeg
+
+IMPORTANTE
+- Se o yt-dlp ou FFmpeg tiver sido instalado recentemente, feche e abra o programa novamente.
+- A pasta de destino pode ser escolhida com o botão "Escolher pasta...".
+- Esta versão não inclui os executáveis yt-dlp, FFmpeg ou Python; usa os programas já instalados no computador.
+- Para distribuir a pessoas sem Python, é possível empacotar o aplicativo em um .exe usando PyInstaller; isso deve ser feito em um computador de desenvolvimento e exige planejar como fornecer/atualizar yt-dlp e FFmpeg.
+- Use apenas para conteúdo que você tenha autorização para baixar. Respeite os direitos autorais e os termos da plataforma.
